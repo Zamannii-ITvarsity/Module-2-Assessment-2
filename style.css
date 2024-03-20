@@ -1,0 +1,231 @@
+html{
+    height: 100%;
+}
+
+
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    margin: 0;
+    padding: 0%;
+
+    height: 100%;
+}
+
+.body-home{
+    background-image: url(images/3xczuktr.png);
+    background-position: left;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.body-meals{
+    background-image: url(images/byxobgkc.png);
+    background-position: left;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*========== Header ==========*/
+
+.header{
+    background-color: black;
+
+    width: 100%;
+    height: 63px;
+    top: 0%;
+
+    position: fixed;
+    overflow: hidden;
+
+    text-align: center;
+}
+
+.header i{
+    float: left;
+    padding: 17px 0px 0px 17px;
+    color: whitesmoke;
+}
+
+.header img{
+    width: 7%;
+    padding-top: 0px;
+    padding-right: 17px;
+}
+
+/*========== Home Page ==========*/
+
+#home-logo-img{
+    width: 200px;
+    display: block;
+    margin: auto;
+    padding: 15px 8px 8px 15px;
+}
+
+#home-logo-text{
+    width: 200px;
+    display: block;
+    margin: auto;
+    padding-top: 0px;
+}
+/*===== Home Page Menu =====*/
+
+.home-menu-item{
+    text-decoration: none;
+    text-transform: uppercase;
+
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    border: 5px solid black;
+
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 80%;
+}
+
+/*========== Staters Page ==========*/
+
+#Meals{
+    padding-top: 60px;
+}
+
+/*===== Home Page Menu =====*/
+
+.meals-list a{
+    text-decoration: none;
+}
+
+.meals-list-item{
+    border: 5px solid black;
+    margin: 10px;
+}
+
+.meals-list h1{
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    padding-left: 10px;
+}
+
+.meals-list-item i{
+    float: right;
+    color: black;
+    padding-right: 10px;
+}
+
+.meals-list-item p{
+    font-size: 15px;
+    font-style: oblique;
+    color: whitesmoke;
+    margin-top: -7px;
+    padding-left: 10px;
+}
+
+/*========== Staters Page ==========*/
+
+#recipe{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/*===== Starters Page Menu =====*/
+
+.recipe-details img{
+    width: 100%;
+}
+
+.recipe-details h1{
+    font-size: 25px;
+    text-align: center;
+    border: 5px solid black;
+}
+
+.recipe-details-check h2{
+    font-size: 20px;
+    text-align: left;
+    margin: 0%;
+    margin-left: 10px;
+}
+
+.recipe-details p{
+    font-size: 20px;
+    display: inline-block; 
+}
+
+.recipe-details-check label{
+    line-height: 30px;
+    margin-left: 1px;
+}
+
+.textarea{
+    width: 100%;
+    height: 25px;
+    margin: 12px 0;
+}
+
+
+.button{
+    display: block;
+    background-color: white;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    font-weight: 400;
+    margin: auto;
+    padding-bottom: 8px 0 0 8px;
+}
+
+/*============ Responsive Layout ==========*/
+
+@media only screen  and (min-width: 600px){
+    #meals{
+        width: 80%;
+        margin: auto;
+    }
+    
+    #recipe{
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media only screen  and (min-width: 1000px){
+    #meals{
+        width: 70%;
+        margin: auto;
+    }
+    
+    #recipe{
+        width: 70%;
+        margin: auto;
+    }
+}
+
+@media only screen  and (min-width: 1000px){
+    #meals{
+        width: 60%;
+        margin: auto;
+    }
+    
+    #recipe{
+        width: 60%;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width: 720px) {
+    .body-home{
+        background-image: url(images/3xczuktr.png);
+    }
+
+    .body-meals{
+        background-image: url(images/byxobgkc.png);
+    }
+}
